@@ -8,6 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIAccelerometerDelegate> {
+    float px;
+    float py;
+    float pz;
+
+    int numSteps;
+}
+
+@property (retain, nonatomic) IBOutlet UILabel *stepCountLabel;
+
+- (IBAction)reset:(id)sender;
 
 @end
