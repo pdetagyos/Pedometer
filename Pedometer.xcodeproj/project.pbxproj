@@ -276,6 +276,7 @@
 				9E1217F51495222700ADA815 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

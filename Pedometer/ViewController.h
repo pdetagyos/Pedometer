@@ -14,6 +14,8 @@
     float pz;
 
     int numSteps;
+    BOOL isChange;
+    BOOL isSleeping;
 }
 
 @property (retain, nonatomic) IBOutlet UILabel *stepCountLabel;
